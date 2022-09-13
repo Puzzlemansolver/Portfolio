@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Poppins&family=Roboto&display=swap');
+/* fonts */
+.font-1{
+    font-family: 'Roboto', sans-serif;
+}
+.font-2{
+    font-family: 'DM Sans', sans-serif;
+}
+.font-3{
+    font-family: 'Poppins', sans-serif;
+}
+.font-white{
+    color: white;
+}
+.font-red{
+    color: red;
+}
+.font-darkpink{
+    color: #f94449;
+}
+.font-darkpink2{
+    color: #ff2c2c;
+}
+.font-small{
+    font-size: 12px;
+    margin: 0;
+    padding-left: 10%;
+}
+.font-big{
+    font-size: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* --------------Global */
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(/Asset/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-color: black; 
+    margin: 0;
+
+}
+.container{
+    
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-links{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.navbar-icons{
+    font-size: 15px;
+    padding:10px;
+    transition: ease-in .1s;
+}
+.navbar-links:hover{
+    color: red;
+    cursor: pointer;
+}
+.navbar-icons:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+.main-container{
+    margin: 1in;
+}
+.Main1{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 100%;
+}
+.intro{
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.padding-top{
+    padding-top: 1in ;
+}
+.button{
+    margin-top: .3in;
+    height: 60px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: #f94449;
+    transition: ease .5s;
+}
+.button:hover{
+    height: 70px;
+    width: 230px
+}
+
+.about-me{
+    background-color: #404040;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-me-description{
+    margin:auto;
+    padding: 20px;
+    margin-right: 200px;
+}
+.send-email-btn{
+    background-color: #f94449 ;
+    border-radius: 20px;
+    border-width: 0px;
+    height: 50px;
+    width: 150px;
+    margin-top: .5in;
+}
+.send-email-btn:hover{
+    background-color: black ;
+}
+.gradpic-white{
+    max-height: 100vh;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-left: 1in;
+    border-radius: 12px ;
+    padding-right: 40px;
+    
+}
+.skills{
+    height: 100vh;
+    
+}
+.skills-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.skills-contents2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.content{
+    height: 3.5in;
+    width: 3in;
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg,rgba(36,35,35,1) 0%, rgba(55,55,55,1) 100%);
+    border-radius: 20px;
+    margin: .5in;
+}
+.read-more-btn{
+    border-color: rgba(253, 33, 55, 0.861);
+    border-radius: 20px;
+    height: .4in;
+    width: 1.5in;
+    background-color: rgba(253, 33, 55, 0.861);
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.margin-bot{
+    margin-top: auto;
+}
+.read-more-btn:hover{
+    background-color: black;
+}
+
+.my-works{
+    background-color: #404040;
+    margin-top: 2in;
+    border-radius: 20px;
+}
+.myworks-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.myworks-button{
+    height: 60px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bolder;
+}
+.myworks-button:hover{
+    background-color: rgb(24, 85, 226);
+}
+
+.blenders{
+    margin: 20px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+}
+.work-content{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(23, 23, 27);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 10px;
+    transition: ease-in 0.2s;
+    margin: 10px;
+}
+.img-content{
+    max-width: 90%;
+    max-height: 90%;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: black;
+    transition: ease-in 0.2s;
+}
+.content-design{
+    display: flex;
+    position: relative;
+}
+.heart{
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.work-content:active{
+    height: 350px;
+    width: 400px;
+}
+
+
+@media(max-width:992px){
+    .skills-contents{
+    flex-direction: column;
+    }
+
+    .skills-contents2{
+        flex-direction: column;
+        padding-left: 10%;
+
+        }
+    .about-me{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:500px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar-links{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .navbar-icons{
+        margin: auto;
+    }
+    .blenders{
+        grid-template-columns: auto auto;
+    }
+}
+
+/* local */

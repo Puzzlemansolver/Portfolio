@@ -42,7 +42,7 @@ a{
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: url(/Asset/bgimage.jpg);
+    background-image: url(./Asset/bgimage.jpg);
     background-repeat: no-repeat;
     background-color: black; 
     margin: 0;
